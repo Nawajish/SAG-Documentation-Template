@@ -1,0 +1,25 @@
+@font-face{
+        font-family:"Avenir Next Light";
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/230d97c9-21f2-4cdd-b298-4039e94c7e4e.eot?#iefix");
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/230d97c9-21f2-4cdd-b298-4039e94c7e4e.eot?#iefix") format("eot"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/1d8365c8-3534-4e50-b99c-a0a266c2e73a.woff2") format("woff2"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/fd56fe47-6f8b-4e17-9357-d33091941de2.woff") format("woff"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/728919d8-1935-407d-a349-440b840ab482.ttf") format("truetype"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/643b812a-89a8-46ac-881a-97fbae6a9e78.svg#643b812a-89a8-46ac-881a-97fbae6a9e78") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir Next Regular";
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/677ce018-f09d-4e73-9713-bb2d8fd47896.eot?#iefix");
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/677ce018-f09d-4e73-9713-bb2d8fd47896.eot?#iefix") format("eot"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/8b1d5802-f86f-4cc1-95a8-261eabda1d22.woff2") format("woff2"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/30306912-4758-4c5f-8cd7-76a816c2e7aa.woff") format("woff"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/00b0b7d9-bb66-4f91-aac2-82571a7a3b61.ttf") format("truetype"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/19fe4c10-13f9-48bd-b902-710a507ee49e.svg#19fe4c10-13f9-48bd-b902-710a507ee49e") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir Next Medium";
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/9075a309-3c8e-4932-a2b8-0e34e3f30fd6.eot?#iefix");
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/9075a309-3c8e-4932-a2b8-0e34e3f30fd6.eot?#iefix") format("eot"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/61f9ec25-f5d7-431f-9606-553aa690b3ae.woff2") format("woff2"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/ab6d6afa-8f48-441b-a01d-a843b3a3aec1.woff") format("woff"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/9c6c6099-637a-4e91-80c3-4dbe55854afe.ttf") format("truetype"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/1557f6b0-463e-4939-9fbb-15bf52ac443c.svg#1557f6b0-463e-4939-9fbb-15bf52ac443c") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir Next Demi";
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/84f6130a-ee4e-4d03-918d-de92cfaa2da1.eot?#iefix");
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/84f6130a-ee4e-4d03-918d-de92cfaa2da1.eot?#iefix") format("eot"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/1d9a4bae-080b-46bf-93b0-5930ffd10549.woff2") format("woff2"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/e46a8eac-9aea-4ee0-a18d-ad17ee506926.woff") format("woff"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/37f4ac36-6e15-4082-bc8e-669c9f04f58c.ttf") format("truetype"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/10407b24-f58d-4c7b-bea4-f196f544e87d.svg#10407b24-f58d-4c7b-bea4-f196f544e87d") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir Next Bold";
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/b6cca3cb-41da-4b42-ad6d-288f331963ac.eot?#iefix");
+        src:url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/b6cca3cb-41da-4b42-ad6d-288f331963ac.eot?#iefix") format("eot"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/901a2c10-d319-4fb9-bcde-ecf09195e0cb.woff2") format("woff2"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/46a31e90-07d1-4815-abe0-145be90a93c2.woff") format("woff"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/344375ed-a79a-4008-a6cf-7fab039bf1ce.ttf") format("truetype"),url("https://www.softwareag.com/corporate/system/v1.37/assets/sag/fonts/fonts_avenir_next/6a1201b1-33df-4016-80f1-ee4fd361148f.svg#6a1201b1-33df-4016-80f1-ee4fd361148f") format("svg");
+    }

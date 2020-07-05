@@ -1,0 +1,376 @@
+/* mktoForm */
+
+ul#ui-id-1 {
+    background: rgba(255, 255, 255, 0.94) !important;   
+    width: 232px !important;
+}
+
+ul#ui-id-1 div {
+    font-size:12px;
+
+    padding: 4px;
+}
+
+ul#ui-id-1 div:hover {
+    background: #3CC5BB;
+    color: white;
+    cursor: pointer;
+}
+
+form.mktoForm {
+    background: #F2F2EA !important;
+    padding: 20px;
+    margin-left: 30px !important;
+    margin-bottom: 30px !important;
+    width: 740px !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoArrowButton .mktoButton:before {
+    display: none !important;
+}
+
+.mktoForm .mktoButtonWrap.mktoArrowButton .mktoButton {
+    box-shadow: none !important;
+}
+/* mktoForm links */
+
+.mktoForm a {
+    color: #3CC5BB !important;
+}
+
+
+/* Row of every field */
+
+form.mktoForm div.mktoFormRow {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+/* Col of every field */
+
+form.mktoForm div.mktoFormCol {
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
+
+/* Wrapper of each field */
+
+form.mktoForm div.mktoFieldWrap {
+    width: 100%;
+    padding: 0;
+}
+
+
+/* Label of each field */
+
+form.mktoForm label.mktoLabel {
+    font-weight: normal !important;
+    color: #011F3D !important;
+    margin-bottom: 7px;
+    width: auto !important;
+    margin-right: 15px;
+}
+
+form.mktoForm .mktoAsterix {
+    float: left !important;
+    color: #3CC5BB;
+    padding-right: 10px !important;
+    font-weight: bold;
+    float: right !important;
+}
+
+
+/* Input field */
+
+form.mktoForm input {
+    width: 100% !important;
+    text-indent: 7px;
+    height: 3.2em !important;
+    outline: none !important;
+}
+
+form.mktoForm input[type="radio"] {
+    height: 1em !important;
+    width: auto !important;
+}
+
+form.mktoForm input:focus {
+    border-bottom: 1px solid #3CC5BB !important;
+}
+
+form.mktoForm ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #738494;
+    opacity: 1;
+    /* Firefox */
+}
+
+form.mktoForm :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #738494;
+}
+
+form.mktoForm ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #738494;
+}
+
+
+/* Select field */
+
+form.mktoForm select {
+    width: 100% !important;
+    height: 3.2em !important;
+    color: #738494 !important;
+    text-indent: 7px !important;
+    background: #fff url(https://info.softwareag.com/rs/858-DJP-749/images/down-arrow-aem.png) center right no-repeat !important;
+    -moz-appearance: none !important;
+    /* Firefox */
+    -webkit-appearance: none !important;
+    /* Safari and Chrome */
+    appearance: none !important;
+}
+
+
+/* Textarea field */
+
+.mktoForm textarea {
+    width: 100% !important;
+    height: 8em !important;
+    padding: 11px !important;
+    text-indent: 11px !important;
+}
+
+.mktoForm input[type=checkbox]+label:before,
+.mktoForm input[type=radio]+label:before {
+    content: "";
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    margin-left: -1.5em;
+    line-height: 1em;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    border: 1px solid #ccced2;
+    box-shadow: inset 1px 1px 4px 1px #ddd;
+    background: #fff;
+}
+
+.mktoForm input[type=radio]:checked+label:before {
+    background-image: url(https://info.softwareag.com/js/forms2/images/dot-bk.png);
+    background-repeat: no-repeat;
+}
+
+.mktoForm input[type=radio]+label:before {
+    border-radius: 1em;
+}
+
+.mktoForm input[type=checkbox],
+.mktoForm input[type=radio] {
+    width: 1em;
+    height: 1em;
+    opacity: 0;
+}
+
+
+/* Consent checkbox*/
+
+.mktoForm .mktoLogicalField {
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.mktoForm input[type=checkbox]+label:before {
+    width: 15px !important;
+    height: 15px !important;
+    /*left: 20px;*/
+}
+
+.mktoForm input[type=checkbox]:checked+label:before {
+    content: "\2713 " !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+label[for=temporaryEmailOptIn] {
+    width: 100% !important;
+    /*margin-left: 25px !important;*/
+    margin-top: 10px !important;
+    margin-right: 20px;
+}
+
+label[for=temporaryEmailOptIn] strong {
+    font-weight: normal !important;
+}
+
+.mktoForm .mktoCheckboxList {
+    padding: unset !important;
+    float: none !important;
+}
+
+.mktoForm input[type=checkbox],
+.mktoForm input[type=radio] {
+    height: auto !important;
+}
+
+.mktoForm .mktoRadioList {
+    float: left !important;
+    width: 100% !important;
+}
+
+.mktoForm input[type=radio]:checked+label:before {
+    background-position: 2px 2px !important;
+}
+
+
+/* Consent text*/
+
+form.mktoForm span#consent,
+form.mktoForm p#consent {
+    width: auto !important;
+    display: block !important;
+    font-style: italic !important;
+    font-size: 10px !important;
+}
+
+form.mktoForm div.mktoHtmlText {
+    width: auto !important;
+}
+
+
+/* Submit button row */
+
+form.mktoForm div.mktoButtonRow {
+    margin-top: 30px !important;
+    display: block !important;
+}
+
+
+/* Submit button wrapper */
+
+form.mktoForm span.mktoButtonWrap {
+    margin-left: 60px !important;
+}
+
+
+/* Submit button */
+
+form.mktoForm .mktoButton {
+    color: #fff !important;
+    background-color: #3CC5BB !important;
+    background-image: unset !important;
+    font-weight: normal !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 20px !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    width: auto !important;
+}
+
+.mktoForm .mktoAnimGlow .mktoButton {
+    animation-name: none !important;
+}
+
+
+/* Border bottom for Input, Textarea and Select */
+
+form.mktoForm input.mktoField.mktoInvalid,
+form.mktoForm textarea.mktoField.mktoInvalid,
+form.mktoForm select.mktoField.mktoInvalid,
+form.mktoForm .mktoLogicalField.mktoInvalid {
+    border: inherit;
+    border-bottom: 1px solid #FF0000;
+}
+
+.mktoForm input[type=text]:focus,
+.mktoForm input[type=url]:focus,
+.mktoForm input[type=email]:focus,
+.mktoForm input[type=tel]:focus,
+.mktoForm input[type=number]:focus,
+.mktoForm input[type=date]:focus,
+.mktoForm select.mktoField:focus,
+.mktoForm textarea.mktoField:focus {
+    border-top: none !important;
+    border-left: none !important;
+}
+
+
+/* Error Messages */
+
+.mktoForm .mktoError {
+    left: -5px !important;
+    bottom: -18px !important;
+}
+
+.mktoForm .mktoError .mktoErrorArrowWrap {
+    display: none;
+}
+
+.mktoForm .mktoError .mktoErrorMsg {
+    display: initial;
+    text-shadow: none !important;
+    background: rgba(255, 255, 255, 0) !important;
+    font-weight: normal !important;
+    color: #FF0000 !important;
+    border: 1px solid rgba(255, 255, 255, 0);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.mktoForm .mktoError .mktoErrorMsg .mktoErrorDetail {
+    display: inline !important;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    form.mktoForm input {
+        height: 3.2em !important;
+    }
+    form.mktoForm select {
+        height: 3.2em !important;
+    }
+    form.mktoForm {
+        width: auto !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    form.mktoForm .mktoFormRow {
+        clear: both;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    form.mktoForm span.mktoButtonWrap {
+        margin-left: 0px !important;
+    }
+    form.mktoForm .mktoButton {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    form.mktoForm .mktoError {
+        bottom: -13px !important;
+    }
+    .mktoForm .mktoError .mktoErrorMsg {
+        font-size: 0.7em !important;
+    }
+    form.mktoForm input {
+        height: 2.2em !important;
+    }
+    form.mktoForm select {
+        height: 2.2em !important;
+    }
+    form.mktoForm {
+        width: auto !important;
+        margin-left: 0px !important;
+    }
+}
