@@ -5292,7 +5292,7 @@ div.all-links {
     display: block;
     position: relative;
     padding: .5em 0;
-    margin-left: -28px;
+    margin-left: 0px;
     color: #666;
     font-size: 14px;
     font-weight: 500;
