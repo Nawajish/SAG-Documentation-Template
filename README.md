@@ -17,3 +17,6 @@ FlowServicesPage\docs.webmethods.io\integration\starthere\home\index.html
 #### Find the 'Workflows' page here
 
 WorkflowPage\docs.webmethods.io\integration\starthere\home\index.html
+
+
+#### you can find the intermediate page in wiki folder and please change the readme :)
