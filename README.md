@@ -19,4 +19,4 @@ FlowServicesPage\docs.webmethods.io\integration\starthere\home\index.html
 WorkflowPage\docs.webmethods.io\integration\starthere\home\index.html
 
 
-#### you can find the intermediate page in wiki folder and please change the readme :)
+
