@@ -4396,8 +4396,10 @@ body.open {
 }
 
 .container {
+    /* position: absolute;
+    left: 10%; */
     padding: 0;
-    max-width: 1200px
+    max-width: 1200px;
 }
 
 .container-fluid {
@@ -5022,7 +5024,7 @@ div.gsc-above-wrapper-area * {
     border-radius: 8px;
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.01), 0 8px 8px rgba(0, 0, 0, 0.01), 0 16px 16px rgba(0, 0, 0, 0.03), 0 32px 32px rgba(0, 0, 0, 0.05), 0 32px 64px rgba(0, 0, 0, 0.1), 0 -3px 32px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s cubic-bezier(0.75, 0.01, 0.32, 0.99), filter 0.3s cubic-bezier(0.75, 0.01, 0.32, 0.99)
+    transition: transform 0.3s cubic-bezier(0.75, 0.01, 0.32, 0.99), filter 0.3s cubic-bezier(0.75, 0.01, 0.32, 0.99);
 }
 
 @media (max-width: 991px) {
@@ -5064,7 +5066,7 @@ div.gsc-above-wrapper-area * {
 @media (min-width: 768px) {
     .main-content {
         padding: 40px;
-        border-radius: 8px
+        border-radius: 8px;
     }
 }
 
@@ -5268,9 +5270,9 @@ table:not(.gsc-search-box):not(.gstl_50) tr>td {
 div.description {
     font-family: Roboto;
     font-size: 16px;
-    padding: 0 20px;
+    padding: 10px 30px;
     display: block;
-    height: 80px
+    height: 30%;
 }
 
 ul.links {
@@ -5280,8 +5282,11 @@ ul.links {
 
 div.all-links {
     position: relative;
-    padding: 0.5em 20px 0;
-    margin-top: auto
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: auto;
+    text-align: left;
 }
 
 .more_booklink_custom {
@@ -5291,8 +5296,9 @@ div.all-links {
 .smart_booklink {
     display: block;
     position: relative;
-    padding: .5em 0;
-    margin-left: 0px;
+    /* padding: .5em  0; */
+    /* margin-left: 0px; */
+    padding-bottom: 0.5em;
     color: #666;
     font-size: 14px;
     font-weight: 500;
@@ -5303,6 +5309,16 @@ div.all-links {
     white-space: nowrap;
     overflow: hidden;
     cursor: default;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.inactiveLink:hover {
+    color: #0f4c7b;
+    text-decoration: none
 }
 
 .smart_booklink:hover {
@@ -5349,7 +5365,7 @@ div.all-links {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
     transition: box-shadow .15s;
     float: left;
-    height: 330px;
+    height: 380px;
     width: 20vw;
     -webkit-border-radius: 0.2em;
     -moz-border-radius: 0.2em;
@@ -5358,6 +5374,7 @@ div.all-links {
     margin: 14px;
     display: inline-block;
     box-sizing: border-box;
+    text-align: left;
 }
 
 .card:hover {
