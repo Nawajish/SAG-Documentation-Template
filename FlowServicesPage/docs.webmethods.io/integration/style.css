@@ -5271,6 +5271,7 @@ div.description {
     font-family: Roboto;
     font-size: 16px;
     padding: 10px 30px;
+    padding-bottom: 20px;
     display: block;
     height: 30%;
 }
